@@ -29,7 +29,7 @@ func sum(nums ...int) (count int, total int) { // named return paramter
 		total += n
 	}
 	count = len(nums)
-	return
+	return // retrun is necessary and must be empty
 }
 
 // Go does not support function overrodding?
